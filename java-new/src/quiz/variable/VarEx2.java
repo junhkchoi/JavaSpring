@@ -1,4 +1,4 @@
-package quiz;
+package quiz.variable;
 
 public class VarEx2 {
     public static void main(String[] args) {

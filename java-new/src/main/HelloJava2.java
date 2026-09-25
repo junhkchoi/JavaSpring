@@ -1,3 +1,4 @@
+package main;
 public class HelloJava2 {
     public static void main(String[] args) {
         System.out.println("hi1");

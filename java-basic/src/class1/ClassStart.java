@@ -16,6 +16,7 @@ public class ClassStart {
 
         for(int i = 0; i < studentNames.length; i++) {
             System.out.println("이름: " + studentNames[i]);
+            
         }
     }
 }

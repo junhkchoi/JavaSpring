@@ -1,6 +1,7 @@
 package oop1;
 
 public class MusicPlayerMain1 {
+    // 절차 지향 프로그래밍임. 말 그대로 절차를 중심으로 실행됨
     public static void main(String[] args) {
         int volume = 0;
         boolean isOn = false;

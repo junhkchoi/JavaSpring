@@ -12,8 +12,10 @@ public class Book extends Item {
     }
 
     @Override
-    void print() {
-        System.out.println("이름: " + name + ", 가격: " + price);
-        System.out.println("저자: " + author + ", isbn: " + isbn);
+    public void print() {
+        // System.out.println("이름: " + name + ", 가격: " + price);
+        // Item 클래스의 멤버 변수가 private이기 때문에 호출불가
+        super.print();
+        System.out.println("- 저자: " + author + ", isbn: " + isbn);
     }
 }

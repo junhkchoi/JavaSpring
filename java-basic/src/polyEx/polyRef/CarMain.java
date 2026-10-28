@@ -8,8 +8,8 @@ public class CarMain {
         driver.setCar(k3Car);
         driver.drive();
 
-        Model3Car model3Car = new Model3Car();
-        driver.setCar(model3Car);
+        NewCar newCar = new NewCar();
+        driver.setCar(newCar);
         driver.drive();
     }
 }
